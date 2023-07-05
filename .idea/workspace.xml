@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="462ce1db-c80a-46f3-b553-2773d94cdeb9" name="Changes" comment="All files added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeekoNacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeekoNacciSeries.java" afterDir="false" />
+    <list default="true" id="462ce1db-c80a-46f3-b553-2773d94cdeb9" name="Changes" comment="GeekOnaci Number">
+      <change afterPath="$PROJECT_DIR$/src/SumOfDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +43,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GeekoNacciSeries">
+  <component name="RunManager" selected="Application.SumOfDigits">
     <configuration name="FascinatingNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FascinatingNo" />
-      <module name="Recursion" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstUppercaseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstUppercaseString" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfDigits" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lengthOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lengthOfString" />
       <module name="Recursion" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.GeekoNacciSeries" />
         <item itemvalue="Application.lengthOfString" />
         <item itemvalue="Application.FascinatingNo" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.FirstUppercaseString" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +99,7 @@
       <updated>1688448495889</updated>
       <workItem from="1688448497459" duration="3496000" />
       <workItem from="1688463836936" duration="10470000" />
-      <workItem from="1688519784188" duration="1619000" />
+      <workItem from="1688519784188" duration="1959000" />
     </task>
     <task id="LOCAL-00001" summary="All files added">
       <created>1688475360432</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688475360432</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GeekOnaci Number">
+      <created>1688521729216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688521729216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="All files added" />
+    <MESSAGE value="GeekOnaci Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="GeekOnaci Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
