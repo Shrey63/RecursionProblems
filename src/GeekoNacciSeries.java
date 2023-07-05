@@ -1,15 +1,32 @@
+import java.util.*;
 public class GeekoNacciSeries {
     public static void main(String[] args) {
-        int[] a={10,20,30};
-        System.out.println(fib(a[0],a[1],a[2],5));
+        Scanner scanner = new Scanner(System.in);
+
+        int numTestCases = scanner.nextInt();
+
+
+        for (int i = 0; i < numTestCases; i++) {
+
+            int[] testCase = new int[4];
+            for (int j = 0; j < 4; j++) {
+                testCase[j] = scanner.nextInt();
+
+            }
+
+            System.out.println(fib(new int[]{testCase[0],testCase[1],testCase[2]},testCase[3]));
+        }
+
     }
-    public static int fib(int a, int b, int c,int n) {
+
+    public static int fib(int[] a,int n) {
         if(n==1)
-            return a;
+            return a[0];
         if(n==2)
-            return b;
+            return a[1];
         if(n==3)
-            return c;
-        return fib(n-1)+fib(n-2);
+            return a[2];
+
+        return fib(a,n-1)+fib(a,n-2)+fib(a,n-3);
     }
 }
